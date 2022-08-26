@@ -2,6 +2,8 @@
 In this moduel, one of the tools we used to gather and anaylise our data was Jupyter Notebook. Seeing how we are presenting our finding to W.Avy, it's best to use Jupyter Notebook, seeing how seemless it is to to share our code. 
 Also using VS Code to create our Flask application. Flask is ---- . We are also using SQLite and SQLAlchemy. 
 
+We'll be using SQLite to store the weather data that W. Avy shared with us and that we'll need for our analysis.
+
 
 At the end of this moduel i will be able to gather data to get the summarized statistcs for June and December. 
 
