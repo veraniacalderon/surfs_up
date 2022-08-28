@@ -7,6 +7,6 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-export FLASK_APP=app.py
-set FLASK_APP=app.py
-flask run
+#export FLASK_APP=app.py
+#set FLASK_APP=app.py
+#flask run
