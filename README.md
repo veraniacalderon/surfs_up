@@ -28,10 +28,10 @@ December's Temperature Stats:
 
 ![december_tight_layout](https://user-images.githubusercontent.com/102995385/188296550-1a1532a7-d17d-4933-b5f1-a139e7aaefe4.png)
 
+## Key Points
+    1.
+    2.
+    3.
+
 # Summary
-
-
-
-2. Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
-39
-3. Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
