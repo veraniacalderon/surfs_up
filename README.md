@@ -1,26 +1,37 @@
-# surfs_up
-In this moduel, one of the tools we used to gather and anaylise our data was Jupyter Notebook. Seeing how we are presenting our finding to W.Avy, it's best to use Jupyter Notebook, seeing how seemless it is to to share our code. 
-Also using VS Code to create our Flask application. Flask is ---- . We are also using SQLite and SQLAlchemy. 
+# Surfs Up Challenge Analysis
+#flask, #SQLite, #SQLAlchemy #Python 
 
-We'll be using SQLite to store the weather data that W. Avy shared with us and that we'll need for our analysis.
+# Project Overview
+
+The purpose of this analysis is to provide W.Avy more information about temperature trends for the months of June and December. The following informatiion is to support the investment that W.Avy want to contribute for the surf and ice cream shop. We'll be using SQLite to store the weather data that W. Avy shared with us and that we'll need for our analysis. With the following information, I wil be able to gather data to get the summarized statistcs for June and December. 
+
+# Results
+
+## Determine the Summary Statistics for June 
+
+Using Python, Pandas functions and methods, and SQLAlchemy, I filtered the date column out of the Measurements table in the 'hawaii.sqlite' database to retrieve all the temperatures for the month of June. In the Jupyter Notebook, I then converted those temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
+
+June's Temperature Stats:
+
+<img width="150" alt="june_describe" src="https://user-images.githubusercontent.com/102995385/188295839-f847cd01-8c30-449a-9b17-0945ad76ed0e.png">
+
+![june_tight_layout](https://user-images.githubusercontent.com/102995385/188296725-47c72fbe-b717-46bf-b93f-a79a8e689004.png)
 
 
-At the end of this moduel i will be able to gather data to get the summarized statistcs for June and December. 
 
-## Deliverable 1: Determine the Summary Statistics for June 
-### Deliverable 1 Instructions
-Using Python, Pandas functions and methods, and SQLAlchemy, you’ll filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of June. You’ll then convert those temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
+## Determine the Summary Statistics for December
+I repeated the same steps as followed for June's results. Except extracting the December Temps. Below are located December's temperature statistics.
 
-## Deliverable 2: Determine the Summary Statistics for December
-### Deliverable 2 Instructions
-Using Python, Pandas functions and methods, and SQLAlchemy, you’ll filter the date column of the Measurements table in the hawaii.sqlite database to retrieve all the temperatures for the month of December. You’ll then convert those temperatures to a list, create a DataFrame from the list, and generate the summary statistics.
+December's Temperature Stats:
 
-## Deliverable 3: A written report for the statistical analysis (20 points)
-### Deliverable 3 Instructions
-For this part of the Challenge, write a report that describes the key differences in weather between June and December and two recommendations for further analysis.
+<img width="177" alt="december_describe" src="https://user-images.githubusercontent.com/102995385/188295885-cf991126-50ee-483f-96b2-3285a7086e46.png">
 
-The analysis should contain the following:
+![december_tight_layout](https://user-images.githubusercontent.com/102995385/188296550-1a1532a7-d17d-4933-b5f1-a139e7aaefe4.png)
 
-1. Overview of the analysis: Explain the purpose of this analysis.
+# Summary
+
+
+
 2. Results: Provide a bulleted list with three major points from the two analysis deliverables. Use images as support where needed.
+39
 3. Summary: Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
