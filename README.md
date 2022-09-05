@@ -37,7 +37,12 @@ December's Temperature Stats:
     as for June it gets low to 65.
 
 # Summary
-To begin, 
+To begin, our analysis is to reassure W.Avy concerns and had asked for an analysis on the  weather inorder for him to fully invest in the Surf n' Shake shop in Oahu, HI. I was able to conduct my analysis based off the information we gathered from the 'hawaii.sqlite' database. Throughout the module I was able to extract the measurments of percepitation of the entire year prior. I successfully executed my code in the 'climate_analysis', A Jupyter Notebook using Python. In the notebook you'll notice every cell explained my thought process as to why I was using that code exact and this also reflects in the 'SurfsUp_Challenge' another notebook. The second Jupyter notebook is for an audince for potential investor who are not quite familiar with executing code. I was able to use Flask to generate an easier way for them to view the data. I also only based the second Jupyter Notebook on the months on January and December, the results above. The results below are showing additional support to the analysis and are based off the measurments of percepiation for the months of January and December. 
+
+### Additional Queries
+
+January and Decembers Percepitation
 
 
----two additional queries that you would perform to gather more weather data for June and December.
+
+    - The plot above show 
